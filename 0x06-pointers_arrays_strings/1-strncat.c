@@ -5,7 +5,8 @@
  * it will use at most n bytes from src.
  * @src: source string pointer.
  * @dest: destination string pointer.
- * return: pointer to destination string.
+ * @n: number of bytes to be concatenates.
+ * Return: pointer to destination string.
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -21,5 +22,5 @@ char *_strncat(char *dest, char *src, int n)
 		dest[string] = src[j];
 	}
 	dest[string] = '\0';
-	return(dest);
+	return (dest);
 }
