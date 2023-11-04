@@ -12,7 +12,7 @@
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	char*p;
+	char *p;
 	unsigned int i, n = new_size;
 	char *oldp = ptr;
 
